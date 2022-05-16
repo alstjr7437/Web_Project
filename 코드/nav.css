@@ -1,0 +1,75 @@
+.toptag{
+    margin-left: 82%;
+    display: flex;
+}
+.toptag > li{
+    margin-left:30px;
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color:white;
+}
+.tag{
+    background-color: #6282D7;
+    height: 80px;
+    display: flex;
+}
+.main{
+    width : 250px;
+    font-size: 60px;
+    margin-left:40px;
+    margin-top:1%;
+    color:white;
+}
+.nav {
+    display: flex;
+}
+.nav > li{
+    margin-left:90px;
+    margin-top: 2%;
+    display: block;
+    font-size: 25px;
+}
+.search {
+    background-color: #6282D7;
+    display: flex;
+    margin-top:0px;
+    width: 100%;
+}
+.search2 {
+    margin-left: 92%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+.search3{
+    margin-bottom: 0%;
+    background-color: #6282D7;
+    border-style: solid;
+    border-color : #6282D7;
+    border-bottom-color : white;
+    color: white;
+    width: 90px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.nav > li > ul {
+    margin-top : 10px;
+    font-size: 17px;
+    border-radius: 5%;
+    background-color: white;
+    text-align: center;
+    display:none;
+}
+.nav > li > ul > li > a{
+    margin-top : 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+.nav > li:hover > ul  {
+    display:block;
+}
+.nav > li > ul > li:hover {
+    background-color: #6282D7;
+    display:block;
+}

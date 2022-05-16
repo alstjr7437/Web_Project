@@ -1,0 +1,20 @@
+.cookmenu {
+    text-align: center;
+    width: auto;
+    height : 70px;
+    font-size: 30px;
+    line-height:60px;
+}
+.cookmenu:hover{
+    background-color: #6282D7;
+}
+.title{
+    margin-top:40px;
+    margin-left:60px;
+    width: 350px;
+    height: 70px;
+    background-color: #6282D7;
+    border: 2px solid white;
+    border-radius: 7%; 
+    flex: auto;
+}
