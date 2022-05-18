@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/cookhelp.css">
+    <link rel="stylesheet" type="text/css" href="../css/circleProgress.css">
+    <link rel="stylesheet" href="../js/circle.js">
+    <title>도우미</title>
+</head>
+<body>
+    <div class = "top">
+        <ul class ="toptag">
+            <li><a href="main.html">홈</a></li>
+            <li><a href="login.html" onclick="window.open('login.html','name','resizable=no width=600 height=500');return false">로그인</a></li>
+            <li><a href="#">언어</a></li>
+            <li><a href="#">이용안내</a></li>
+        </ul>
+    </div>
+    <div class = "tag">
+        <a href = "main.html"><h1 class = "main">요리 조리</h1></a>
+        <ul class = "nav">
+            <li><a href = "notice.html" style="color: white;">공지사항</a>
+                <ul class = "menu1">
+                    <li><a href = "#">사이트 소개</a></li>
+                    <li><a href = "#">주요 공지</a></li>
+                    <li><a href = "#">오류 공지</a></li>
+                    <li><a href = "#">이용 방법</a></li>
+                </ul> 
+            </li>
+            <li><a href = "event.html" style="color: white;">이벤트</a>
+                <ul class = "menu2">
+                    <li><a href = "#">진행중 이벤트</a></li>
+                    <li><a href = "#">내부 이벤트</a></li>
+                    <li><a href = "#">외부 이벤트</a></li>
+                    <li><a href = "#">종료 이벤트</a></li>
+                </ul> 
+            </li>
+            <li><a href = "#" style="color: white;">요리대회</a>
+                <ul class = "menu3">
+                    <li><a href = "#">소규모 대회</a></li>
+                    <li><a href = "#">대규모 대회</a></li>
+                    <li><a href = "#">수상 내용</a></li>
+                </ul> 
+            </li>
+            <li><a href = "#" style="color: white;">요리강의</a>
+                <ul class = "menu4">
+                    <li><a href = "#">온라인 강의</a></li>
+                    <li><a href = "#">오프라인 강의</a></li>
+                </ul> 
+            </li>
+            <li><a href = "#" style="color: white; ">레시피</a>
+                <ul class = "menu5">
+                    <li><a href = "#">한 식</a></li>
+                    <li><a href = "#">중 식</a></li>
+                    <li><a href = "#">양 식</a></li>
+                    <li><a href = "#">일 식</a></li>
+                </ul> 
+            </li>
+            <li><a href = "cookhelp.html" style="color: white; text-decoration:aliceblue; text-decoration-color: white;">도우미</a>
+                <ul class = "menu6">
+                    <li><a href = "#">타이머</a></li>
+                    <li><a href = "#" >재료 도우미</a></li>
+                    <li><a href = "#">도움 영상</a></li>
+                </ul>
+            </li>
+            <li><a href = "cell.html" style="color: white;">재료구매</a>
+                <ul class = "menu7">
+                    <li><a href = "#">음식</a></li>
+                    <li><a href = "#">주방 용품</a></li>
+                    <li><a href = "#">장바구니</a></li>
+                </ul> 
+            </li> 
+            <li><a href = "#" style="color: white;">QnA</a></li>
+        </ul>
+    </div>
+    <div class = "search">
+        <img src="../img/돋보기.JPG" width="35px" height="30px" class = "search2">
+        <input class = "search3">
+    </div>
+
+    <div style=" margin: 0px; float: left; height:1500px; background-color: aliceblue;">
+        <h3 style = "text-align:center; margin-left:30px; margin-right:30px; margin-top:10px; margin-bottom:10px; font-weight:bolder;">즐겨찾는 메뉴</h3> 
+        <hr size="5" color="black">
+        <h5 class = "cookmenu"><a href="#" style = "color:black">김치찌개</a></h5>
+        <h5 class = "cookmenu"><a href="#" style = "color:black">된장찌개</a></h5>
+        <h5 class = "cookmenu"><a href="#" style = "color:black">삼겹살</a></h5>
+        <h5 class = "cookmenu"><a href="#" style = "color:black">까르보나라</a></h5>
+        <h5 class = "cookmenu"><a href="#" style = "color:black">알리오올리오</a></h5>
+        <h5 class = "cookmenu"><a href="#" style = "color:black">김치 볶음밥</a></h5>
+    </div>
+    <div>
+        <div class="cooking">
+            <div class ="title">
+                <h3 style="text-align:center; line-height:60px; ">현재 요리 : 김치 볶음밥</h3><div class="circle_progress">
+                    <br><br>
+                <div class = "progress2">
+                    <h3 class ="ing">재료 썰어두기</h3>
+                </div>
+                <div class="wrap">
+                    <div class="progress" data-percent="85">
+                        <span>15초</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class = "pro">
+            <h1 style = "text-align: center; font-size: 60px;">요리 순서</h1>
+            <div class = "progress1" style="background-color:orange">
+                <h3>재료 썰어두기</h3>
+            </div>
+            <div class = "progress1">
+                <h3>냠 냠</h3>
+            </div>
+            <div class = "goup"></div>
+            <div class = "godown"></div>
+            <div class = "progress1">
+                <h3>파 기름 내기</h3>
+            </div>
+            <div class = "progress1">
+                <h3>밥, 참기름 넣기</h3>
+            </div>
+            <div class = "goup"></div>
+            <div class = "godown"></div>
+            <div class = "progress1">
+                <h3>간장 설탕 넣고 데우기</h3>
+            </div>
+            <div class = "progress1">
+                <h3>열심히 볶기</h3>
+            </div>
+            <div class = "goup"></div>
+            <div class = "godown"></div>
+            <div class = "progress1">
+                <h3>김치 넣고 데우기</h3>
+            </div>
+            <div class = "goleft"></div>
+            <div class = "progress1" style="margin-left: 5px; margin-bottom: 5%;">
+                <h3>고춧가루 넣기</h3>
+            </div>
+        </div>
+        <div class = "material">
+            <h1 style ="text-align: center; font-size: 50px;">재 료</h1>
+            <h3 class = "material2">김치 1컵</h3>
+            <h3 class = "material2">대파 1/2컵 </h3> </h3>
+            <h3 class = "material2">햄 취향 </h3>
+            <h3 class = "material2">식용유 3숟갈 </h3>
+            <h3 class = "material2">진간장 1/3숟갈 </h3>
+            <h3 class = "material2">고춧가루 1/3숟갈 </h3>
+            <h3 class = "material2">설탕 1/3숟갈 </h3>
+            <h3 class = "material2">밥 1공기 </h3>
+            
+        </div>
+    </div>
+</body>
+</html>

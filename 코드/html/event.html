@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/event.css">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <title>공지사항</title>
+</head>
+<body>
+    <div class = "top">
+        <ul class ="toptag">
+            <li><a href="main.html">홈</a></li>
+            <li><a href="login.html" onclick="window.open('login.html','name','resizable=no width=600 height=500');return false">로그인</a></li>
+            <li><a href="#">언어</a></li>
+            <li><a href="#">이용안내</a></li>
+        </ul>
+    </div>
+    <div class = "tag">
+        <a href = "main.html"><h1 class = "main">요리 조리</h1></a>
+        <ul class = "nav">
+            <li><a href = "notice.html" style="color: white;">공지사항</a>
+                <ul class = "menu1">
+                    <li><a href = "#">사이트 소개</a></li>
+                    <li><a href = "#">주요 공지</a></li>
+                    <li><a href = "#">오류 공지</a></li>
+                    <li><a href = "#">이용 방법</a></li>
+                </ul> 
+            </li>
+            <li><a href = "event.html" style="color: white;">이벤트</a>
+                <ul class = "menu2">
+                    <li><a href = "#">진행중 이벤트</a></li>
+                    <li><a href = "#">내부 이벤트</a></li>
+                    <li><a href = "#">외부 이벤트</a></li>
+                    <li><a href = "#">종료 이벤트</a></li>
+                </ul> 
+            </li>
+            <li><a href = "#" style="color: white;">요리대회</a>
+                <ul class = "menu3">
+                    <li><a href = "#">소규모 대회</a></li>
+                    <li><a href = "#">대규모 대회</a></li>
+                    <li><a href = "#">수상 내용</a></li>
+                </ul> 
+            </li>
+            <li><a href = "#" style="color: white;">요리강의</a>
+                <ul class = "menu4">
+                    <li><a href = "#">온라인 강의</a></li>
+                    <li><a href = "#">오프라인 강의</a></li>
+                </ul> 
+            </li>
+            <li><a href = "#" style="color: white;">레시피</a>
+                <ul class = "menu5">
+                    <li><a href = "#">한 식</a></li>
+                    <li><a href = "#">중 식</a></li>
+                    <li><a href = "#">양 식</a></li>
+                    <li><a href = "#">일 식</a></li>
+                </ul> 
+            </li>
+            <li><a href = "cookhelp.html" style="color: white;">도우미</a>
+                <ul class = "menu6">
+                    <li><a href = "#">타이머</a></li>
+                    <li><a href = "#">재료 도우미</a></li>
+                    <li><a href = "#">도움 영상</a></li>
+                </ul> 
+            </li>
+            <li><a href = "cell.html" style="color: white;">재료구매</a>
+                <ul class = "menu7">
+                    <li><a href = "#">음식</a></li>
+                    <li><a href = "#">주방 용품</a></li>
+                    <li><a href = "#">장바구니</a></li>
+                </ul> 
+            </li> 
+            <li><a href = "#" style="color: white;">QnA</a></li>
+        </ul>
+    </div>
+    <div class = "search">
+        <img src="../img/돋보기.JPG" width="35px" height="30px" class = "search2">
+        <input class = "search3">
+    </div>
+    <h1>이벤트</h1>
+    <table class="table1">
+        <thead class="thead1">
+          <tr class="trbor1">
+            <th>포스터</th><th>제 목</th><th>기 간</th><th>조 회</th>
+          </tr>
+        </thead>
+        <tbody class="tbody1">
+          <tr OnClick="location.href='http://naver.com'">
+            <td><img src="../img/이벤트.jpg" width="200px" height="200px"></td>
+            <td class = "name">식재품 무료 나눔</td>
+            <td>2022.05.03 ~ 2022.05.29</td>
+            <td>9</td>
+          </tr>
+          <tr OnClick="location.href='http://naver.com'">
+            <td><img src="../img/이벤트2.jpg" width="200px" height="200px"></td>
+            <td class = "name">5월 1~2주 이벤트</td>
+            <td>2022.04.28 ~ 2022.05.18</td>
+            <td>86</td>
+          </tr>
+          <tr OnClick="location.href='http://naver.com'">
+            <td><img src="../img/이벤트3.jpg" width="200px" height="200px"></td>
+            <td class = "name">무료 나눔</td>
+            <td>2022.04.25 ~ 2022.05.20</td>
+            <td>112</td>
+          </tr>
+          <tr OnClick="location.href='http://naver.com'">
+            <td><img src="../img/이벤트4.jpg" width="200px" height="200px"></td>
+            <td class = "name">22년도 최고의 요리</td>
+            <td>2022.04.20 ~ 2022.12.31</td>
+            <td>241</td>
+          </tr>
+        </tbody>        
+      </table>
+    <li>
+        <div id="divPaging">
+            <div><a href="#">◀</a></div>
+            <div><a href="#"><b>1</b></a></div>
+            <div><a href="#">2</a></div>
+            <div><a href="#">3</a></div>
+            <div><a href="#">4</a></div>
+            <div><a href="#">5</a></div>
+            <div><a href="#">▶</a></div>
+        </div>
+    </li>
+
+    <!-- 검색 폼 영역 -->
+    <li id='liSearchOption'>
+        <div>
+            <select id='selSearchOption' >
+                <option value='A'>제목+내용</option>
+                <option value='T'>제목</option>
+                <option value='C'>내용</option>
+            </select>
+            <input id='txtKeyWord' />
+            <input type='button' value='검색'/>
+        </div>
+        </li>
+</body>
+</html>
