@@ -1,0 +1,61 @@
+
+.wrap {
+	width:200px; 
+	margin:0 auto;
+	padding-top:50px;
+}
+.progress {
+	position:relative;
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background:#dedddd;
+	box-shadow:2px 2px 2px 2px #a3a3a3 inset;
+	-webkit-box-shadow:2px 2px 2px 2px #a3a3a3 inset;
+	-moz-box-shadow:2px 2px 2px 2px #a3a3a3 inset;
+	-ms-box-shadow:2px 2px 2px 2px #a3a3a3 inset;
+}
+.progress div {
+	position:absolute;
+	left:100px; 
+	top:0px;
+	display:none; 
+	width:2px;
+	height:100px;
+	background: red;
+	transform-origin: 0px 100px;
+	-webkit-transform-origin: 0px 100px;
+	-moz-transform-origin: 0px 100px;
+	-ms-transform-origin: 0px 100px;
+}
+
+.progress_value {
+	transform:lotate(0deg);
+	-webkit-transform:lotate(0deg); 
+	-moz-transform:lotate(0deg); 
+	-ms-transform:lotate(0deg);
+}
+
+span {
+	position:absolute;
+	z-index:10;
+	left:25px;
+	top:25px;
+	width:150px;
+	height:150px;
+	line-height:150px; 
+	text-align:center;
+	background:#DFE6F8;
+	border-radius:50%;
+	box-shadow:2px 2px 2px 2px #a3a3a3;
+	-webkit-box-shadow:2px 2px 2px 2px #a3a3a3;
+	-moz-box-shadow:2px 2px 2px 2px #a3a3a3;
+	-ms-box-shadow:2px 2px 2px 2px #a3a3a3;
+	font-size:42px; 
+	font-weight:bold;
+	color:white; 
+	text-shadow:2px 2px 2px #6282D7;
+	-webkit-text-shadow:2px 2px 2px #6282D7;
+	-moz-text-shadow:2px 2px 2px #6282D7;
+	-ms-text-shadow:2px 2px 2px #6282D7;
+}

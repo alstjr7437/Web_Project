@@ -9,12 +9,76 @@
     background-color: #6282D7;
 }
 .title{
-    margin-top:40px;
-    margin-left:60px;
+    margin-top:50px;
     width: 350px;
-    height: 70px;
+    height: 70px;  
     background-color: #6282D7;
     border: 2px solid white;
     border-radius: 7%; 
-    flex: auto;
+    float: left;
+}
+.pro{
+    float: left;
+    width: 700px;
+    height: 1000px;
+    margin-top : 50px;
+    margin-left : 50px;
+    margin-right : 50px;
+    border:3px solid white;
+}
+.progress1{
+    display: inline-block;
+    width : 300px;
+    height : 100px;
+    margin-top:5%;
+    margin-left:5%;
+    background-color: #6282D7;
+    border:3px solid white;
+    border-radius: 10%;
+}
+.goup{
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-top: 20px solid #6282D7;/* 화살표 */
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+    margin-top : 5%;
+    margin-left : 160px;
+}
+.goleft{
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #6282D7;/* 화살표 */
+    margin-top : 5%;
+    margin-left : 5px;
+}
+.godown{
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-bottom: 20px solid #6282D7;/* 화살표 */
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+    margin-top : 5%;
+    margin-left : 300px;
+}
+.material{
+    margin-top : 50px;
+    width:200px;
+    height:1000px;
+    left:100px;
+    background-color: #6282D7;
+    border:3px solid white;
+    float: left;
+}
+.material2{
+    border-top:3px solid white;
+    margin-top:15px;
+    margin-bottom:15px;
+    text-align: left; 
+    font-size: 25px;
 }

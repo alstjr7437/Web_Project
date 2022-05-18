@@ -9,14 +9,25 @@ body{
     margin: 0px;
     padding:0px;
 }
+a{
+    text-decoration: none;
+}
 .mainimg{
-    background-image: url(img/대회사진.jpg);
+    display: inline-block;
+    background-image: url(img/영상.gif);
     margin-left: 100px;
     margin-right: auto;
-    width : 1500px;
-    height : 1000px;
+    width : 700px;
+    height : 600px;
 }
-
+.mainimg2{
+    display: inline-block;
+    background-image: url(img/영상2.gif);
+    margin-left: 0px;
+    margin-right: auto;
+    width : 700px;
+    height : 600px;
+}
 .event{
     display:inline-block;
     margin-left: 40px;

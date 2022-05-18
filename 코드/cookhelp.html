@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="mainstyle.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
     <link rel="stylesheet" type="text/css" href="cookhelp.css">
+    <link rel="stylesheet" type="text/css" href="circleProgress.css">
+    <link rel="stylesheet" href="circle.js">
     <title>도우미</title>
 </head>
 <body>
@@ -93,8 +95,68 @@
         <h5 class = "cookmenu"><a href="#" style = "color:black">알리오올리오</a></h5>
         <h5 class = "cookmenu"><a href="#" style = "color:black">김치 볶음밥</a></h5>
     </div>
-
-    <div class ="title"><h3 style="text-align:center; line-height:60px;">현재 요리 : 김치 볶음밥</h3></div>
-    <div ></div>
+    <div>
+        <div class="cooking">
+            <div class ="title">
+                <h3 style="text-align:center; line-height:60px; ">현재 요리 : 김치 볶음밥</h3><div class="circle_progress">
+                    <br><br>
+                <div class = "progress1" style="margin-left:50px;height:50px; width:250px; background-color:orange">
+                    <h3>재료 썰어두기</h3>
+                </div>
+                <div class="wrap">
+                    <div class="progress" data-percent="85">
+                        <span>15초</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class = "pro">
+            <h1 style = "text-align: center; font-size: 60px;">요리 순서</h1>
+            <div class = "progress1" style="background-color:orange">
+                <h3 style="margin-top:25px;">재료 썰어두기</h3>
+            </div>
+            <div class = "progress1">
+                <h3 style="margin-top:25px">냠 냠</h3>
+            </div>
+            <div class = "goup"></div>
+            <div class = "godown"></div>
+            <div class = "progress1">
+                <h3 style="margin-top:25px">파 기름 내기</h3>
+            </div>
+            <div class = "progress1">
+                <h3 style="margin-top:25px">밥, 참기름 넣기</h3>
+            </div>
+            <div class = "goup"></div>
+            <div class = "godown"></div>
+            <div class = "progress1">
+                <h3 style="margin-top:25px">간장 설탕 넣고 데우기</h3>
+            </div>
+            <div class = "progress1">
+                <h3 style="margin-top:25px">열심히 볶기</h3>
+            </div>
+            <div class = "goup"></div>
+            <div class = "godown"></div>
+            <div class = "progress1">
+                <h3 style="margin-top:25px">김치 넣고 데우기</h3>
+            </div>
+            <div class = "goleft"></div>
+            <div class = "progress1" style="margin-left: 5px;">
+                <h3 style="margin-top:25px" >고춧가루 넣기</h3>
+            </div>
+        </div>
+        <div class = "material">
+            <h1 style ="text-align: center; font-size: 50px;">재 료</h1>
+            <h3 class = "material2">김치 1컵</h3>
+            <h3 class = "material2">대파 1/2컵 </h3> </h3>
+            <h3 class = "material2">햄 취향 </h3>
+            <h3 class = "material2">식용유 3숟갈 </h3>
+            <h3 class = "material2">진간장 1/3숟갈 </h3>
+            <h3 class = "material2">고춧가루 1/3숟갈 </h3>
+            <h3 class = "material2">설탕 1/3숟갈 </h3>
+            <h3 class = "material2">밥 1공기 </h3>
+            
+        </div>
+    </div>
 </body>
 </html>
