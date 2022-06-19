@@ -78,7 +78,7 @@ body{
     border-color: white;
     border-radius: 10px;
 }
-.pic1{
+.pic{
     background-color: #96abe6;
     width: 200px;
     height: 350px;
@@ -87,186 +87,17 @@ body{
     display: inline-block;
 
 }
-.pice1{
+.pice{
     margin-top: 5px;
     margin-left: 5px;
     font-size: 22px;
 }
-.picw1{
+.picw{
     font-size: 35px;
     margin-left: 5px;
     margin-top: 10px;
 }
-.pic2{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.pice2{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw2{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic3{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-    
-}
-.pice3{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw3{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic4{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-    
-}
-.pice4{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw4{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic5{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 20px;
-    display: inline-block;
-    
-}
-.pice5{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw5{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic6{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 50px;
-    display: inline-block;
-    
-}
-.pice6{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw6{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic7{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 50px;
-    display: inline-block;
-    
-}
-.pice7{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw7{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic8{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 50px;
-    display: inline-block;
-    
-}
-.pice8{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw8{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic9{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 50px;
-    display: inline-block;
 
-}
-.pice9{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw9{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.pic10{
-    background-color: #96abe6;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-top: 50px;
-    display: inline-block;
-    
-}
-.pice10{
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 22px;
-}
-.picw10{
-    font-size: 35px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
 .pic11{
     background-color: #96abe6;
     width: 200px;
