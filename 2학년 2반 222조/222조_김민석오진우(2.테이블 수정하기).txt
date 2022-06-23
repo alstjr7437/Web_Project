@@ -1,0 +1,25 @@
+
+DESC member; 
+DESC board; 
+DESC boardcmt;
+DESC cooking;
+DESC food;
+
+DROP TABLE member;
+DROP TABLE board;
+DROP TABLE boardcmt;
+DROP TABLE cooking;
+DROP TABLE food;
+
+SELECT * FROM member;
+SELECT * from board;
+SELECT * FROM boardcmt;
+SELECT * FROM cooking;
+SELECT * FROM food;
+
+UPDATE member SET xhome = '기숙사 517호' WHERE num = 2;
+DELETE FROM boardcmt WHERE num = 8;
+
+COMMIT;
+
+

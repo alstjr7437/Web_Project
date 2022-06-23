@@ -1,0 +1,47 @@
+
+-- 요리 
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '현미밥', '현미 3컵/쌀 2컵', '종이컵(3~4인분)', '쌀 씻어주기/30','쌀 불려주기/60', '솥에 넣기/30', '취사버튼 클릭/15','완료 후 뜸들이기/600','요리완성/0');
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '차돌된장찌개', '차돌박이 150g/무 50g/양파 반개/애호박 100g/대파 반대/두부 150g/청양고추반개/다진마늘 1스푼/된장 2스푼/고춧가루 1스푼/후춧가루 1스푼', '종이컵(3~4인분)/밥숟가락', '육수/1200','재료손질/900', '재료볶기/300', '재료끓이기/1200','재료추가 후 끓이기/600','요리완성/0');
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '묵은지감자탕', '돼지등뼈 1kg/감자 작은크기 2개/대파 반대/김치 50g/깻잎 10장/들깻가루 4스푼/물 1리터/통후추 0.5스푼/청주 2~3바퀴/월계수잎 2장/고춧가루 3스푼/국간장 3스푼/설탕 0.5스푼/된장 1스푼/다진마늘 2스푼/다진생강 0.5스푼/후춧가루 약간', '종이컵(3~4인분)/밥숟가락', '등뼈 핏물빼기/12000','등뼈 삶기/600', '양념장 만들기/300', '삶은 등뼈 핏물제거/180','압력솥에 재료준비하기/300','부재료손질/300','압력솥에 끓이기/1500','요리완성/0');
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '고기미역국', '소고기 국거리용 150g/자르 미역 약10g/참기름 1스푼/국간장 3스푼/물 약 7컵 1.3L/다진마늘 3스푼/액젓 1.5스푼', '종이컵(3~4인분)/밥숟가락', '고기 핏물제거/180','미역불리기/300', '불린미역 씻기/240', '재료볶기/240','국 끓이기/480','약불로 끓이기/1800','요리완성/0', null);
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '명란계란말이', '달걀 5개/맛술 1스푼/쪽파 2~3줄기/명란젓 2~3개', '종이컵(3~4인분)/밥숟가락', '명란 비린내제거/300','께란 풀어주기/240', '재료 준비/180', '프라이페 달구기/60','계란말이 만들기/480','요리완성/0', NULL, null);
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '생과일키위주스', '키위 3개/바나나 반개/시럽과 꿀 20g/탄산수 100ml/얼음 반개', '계량컵', '재료 준비/120','재료손질/240', '과일 갈아주기/30', '얼음컵 준비/60','컵에 옮겨담기/60','요리완성/0', NULL, NULL);
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '전복솥밥', '전복 5마리/쌀 3컵/물 2.7L/당근 약간/버섯종류별 50g/맛술 1스푼/다진마늘 1스푼/참기름 1스푼', '종이컵(3~4인분)/숟가락', '양념장 만들기/120','전복 손질/300', '쌀 씻어주기/120', '재료 손질/240','쌀 불리기/1800','전복 삶기/1500','찜기에 밥넣고 삶기/1800','요리 완성/0');
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '스팸김치볶음밥', '썬김치 200g/스팸 300g/잘게썬대파 반컵/식용유 3~4스푼/진간장 2스푼/고춧가루 0.5스푼/달걀 1개/통깨', '종이컵(3~4인분)/밥숟가락', '김치 및 재료손질/300','밥 데워주기/150', '김치 볶아주기/120', '재료볶아주기/120','밥 볶아주기/180','달걀 올려주기/60','요리완성/0', null);
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '상추겉절이', '상추 2포기/홍고추 1개/고춧가루 1스푼/홍고추 1개/설탕 1스푼/다진마늘 0.5스푼/진간장 1스푼/액젓 1스푼/식초 1~2스푼/맛술 1스푼/참기름 1스푼', '종이컵(3~4인분),숟가락', '재료 씻기/180','재료 손질/300', '양념장 만들기/120', '양념장에 상추 버무려주기/160','마지막 간 봐주기/600','요리완성/0', NULL, null);
+INSERT INTO cooking(num, cname, cfood, amount, cook1, cook2, cook3, cook4, cook5, cook6, cook7, cook8)   
+VALUES(NULL, '매쉬드포테이토', '감자 500g/소금 1티스푼/버터 20g/생크림 50ml/소금 2꼬집/마요네즈 1스푼/지퍼백 1개', '종이컵(3~4인분),티스푼', '감자 삶아주기/600','감자 간해주기/150', '감자 으깨주기/300', '소스 만들어주기/200','그릇에 감자담기/120','소스뿌리기/60','요리완성/0', NULL);
+
+-- 요리 재료
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '가지', '2개', '국산', 3490, NULL, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=147','../img/rkwl.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '항정살 구이용', '300g(냉장)', '국산', 16100, NULL, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=59799','../img/gkdwjdtkf.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '한우 곱창 구이', '240g', '국산', 29800, NULL, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=42910','../img/gksdnrhq.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '롱 파스타6종', '500g', '이탈리아', 3380, 2, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=1269','../img/vktmxk.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '감자', '2kg', '국산', 8990, NULL, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=70381','../img/rkawk.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '훈제오리', '150g', '국산', 2980, NULL, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=69853','../img/gnswpdhfl.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '바베큐 폭립 오리지날', '450g', '호주산', 14800, 20, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=48790','../img/qkqpzb.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '한돈 삼겹살 구이용', '600g', '국산', 17330, 9, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=56512','../img/gksehs.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '무항생제 특란 20구', '1200g', '국산', 7150, NULL, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=56791','../img/xmrfks.PNG');
+INSERT INTO food(num, fname, amount, origin, price, sale, link, img)   
+VALUES(NULL, '우삼겹 돌돌말이', '500g(냉동)', '미국산', 9900, 20, 'https://www.kurly.com/shop/goods/goods_view.php?&goodsno=63913','../img/dntkaruq.PNG');
+
+
+COMMIT;
